@@ -6,6 +6,8 @@
 #include<mutex>
 #include<deque>
 #include<vector>
+#include<condition_variable>
+
 #define MAX_DEQUE_SIZE 2048
 namespace utils
 {

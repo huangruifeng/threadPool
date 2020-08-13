@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.2)
 
-project(threadpool)
+#project(threadpool)
 
 if(APPLE)
     set(CMAKE_XCODE_ATTRIBUTE_DEBUG_INFORMATION_FORMAT "dwarf-with-dsym")
