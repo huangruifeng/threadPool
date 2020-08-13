@@ -41,7 +41,7 @@ target_link_libraries(threadpool Threads::Threads)
 option(ENABLE_TEST  "Show debug window to choice server" OFF)
 
 
-if(ENABLE_TEST)
-    add_executable(test test.cpp)
-    target_link_libraries(test threadpool)
-endif()
+# if(ENABLE_TEST)
+#     add_executable(test test.cpp)
+#     target_link_libraries(test threadpool)
+# endif()
